@@ -2,7 +2,7 @@
 
 namespace App;
 
-class Spread extends \App\Mainframe\Modules\Spreads\Spread
+class Spread extends \App\Projects\Prohori\Modules\Spreads\Spread
 {
    /*--------------------------------------
    | Note : Empty class.

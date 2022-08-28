@@ -2,7 +2,7 @@
 
 namespace App;
 
-class Package extends \App\Mainframe\Modules\Packages\Package
+class Package extends \App\Projects\Prohori\Modules\Packages\Package
 {
    /*--------------------------------------
    | Note : Empty class.

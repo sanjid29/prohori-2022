@@ -2,7 +2,7 @@
 
 namespace App;
 
-class Notification extends \App\Mainframe\Modules\Notifications\Notification
+class Notification extends \App\Projects\Prohori\Modules\Notifications\Notification
 {
    /*--------------------------------------
    | Note : Empty class.

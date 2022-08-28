@@ -2,7 +2,7 @@
 
 namespace App;
 
-class Comment extends \App\Mainframe\Modules\Comments\Comment
+class Comment extends \App\Projects\Prohori\Modules\Comments\Comment
 {
    /*--------------------------------------
    | Note : Empty class.
