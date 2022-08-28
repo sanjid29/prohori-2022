@@ -1,0 +1,1322 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;0,700;1,400&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Karla:400,700|Montserrat:300,400,500,600,700,800|Roboto:400,500,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,400;0,600;1,400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap");
+
+@font-face {
+    font-family: "solaiman-lipi";
+    src: url("fonts/solaiman-lipi.ttf");
+}
+
+.bangla {
+    font-family: "solaiman-lipi", "Inter", "Roboto", "Arial", sans-serif;!important;
+}
+
+.material-icons-outlined,
+.material-symbols-outlined {
+    font-size: inherit;
+    line-height: inherit;
+}
+
+@font-face {
+    font-family: "solaiman-lipi";
+    src: url("fonts/solaiman-lipi.ttf");
+}
+
+.material-symbols-outlined {
+    font-variation-settings: "FILL" 0,
+    "wght" 400,
+    "GRAD" 0,
+    "opsz" 48
+}
+
+/***********************************************************************
+* Global font settings
+************************************************************************/
+/*.h1, .h2, .h3, .h4, .h5, .h6, body, h1, h2, h3, h4, h5, h6 {*/
+/*font-family: 'Ubuntu', sans-serif;*/
+/*!important;*/
+/*}*/
+
+body, html, .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6,
+.content-header h4,
+.main-header, input, textarea {
+    font-family: "Inter", "Karla", "Roboto", "Arial", sans-serif;
+!important;
+    color: #777;
+    font-weight: normal;
+
+}
+
+[v-cloak] {
+    display: none;
+}
+
+body, .form-control, .btn, table, tr, th, td, thead, tbody, .dropdown-menu {
+    font-size: 13px;
+}
+
+.main-header .logo, .logo, .logo-mini, .logo-lg, .login-logo, .register-logo, .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    font-family: "Poppins", "Inter", "Karla", "Roboto", "Arial", sans-serif;
+    font-weight: 100;
+}
+
+.main-header .logo, .logo, .logo-mini, .logo-lg {
+    font-weight: 600;
+}
+
+h3 {
+    font-weight: 600;
+}
+
+a, a:hover {
+    color: #001fbd;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:focus {
+    color: inherit;
+}
+
+.btn {
+    transition: all ease-in-out .25s;
+    /*border: 0;*/
+}
+
+.btn-group.pull-right .dropdown-menu {
+    left: auto;
+    right: 0;
+}
+
+.skin-blue-light .main-header .logo:hover {
+    text-decoration: none;
+}
+
+.login-logo, .register-logo {
+    padding-top: 20px;
+    margin-bottom: 5px;
+    font-weight: 100;
+}
+
+.login-box, .register-box {
+    border-radius: 5px;
+}
+
+.login-box, .login-box-body, .register-box-body {
+    background-color: white;
+}
+
+.login-page {
+    background-image: url("../images/login-bg1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: white;
+}
+
+.login-page input {
+    padding: 10px;
+}
+
+.login-box-body button.login {
+    /*font-size: 18px;*/
+}
+
+.login-box-body .callout {
+    text-align: center;
+}
+
+.login-page .btn.btn-success:hover, .btn.btn-primary:hover {
+    background-color: #000;
+    border-color: #000;
+}
+
+.login-page .btn.btn-default {
+    background-color: #777777;
+    border-color: #777777;
+    color: #fff
+}
+
+.login-page .btn.btn-default:hover {
+    background-color: #000;
+    border-color: #000;
+}
+
+.login-logo, .register-logo {
+    font-family: "Poppins", "Quicksand", sans-serif;
+    padding-top: 20px;
+    margin-bottom: 5px;
+    font-weight: 100;
+}
+
+.login-logo {
+
+    font-weight: 600;
+    padding: 15px;
+}
+
+.login-page .login-box-body a {
+    color: #777;
+}
+
+.login-box-body {
+    padding-top: 0;
+    border-radius: 5px;
+}
+
+.login-box-body h4 {
+    text-align: center;
+}
+
+code {
+    font-size: 80%;
+}
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    line-height: 1.5em;
+}
+
+.h2, h2 {
+    font-size: 20px;
+}
+
+.h3, h3 {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.h4, h4 {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.h5, h5 {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.sidebar-menu {
+    margin-top: 10px;
+}
+
+.sidebar-menu .treeview-menu {
+    padding-left: 10px;
+    padding-bottom: 10px;
+    border-left: 4px solid #0f202f;
+}
+
+.sidebar-mini.sidebar-collapse .sidebar-menu > li {
+    min-height: 40px;
+}
+
+.form-control,
+.btn,
+table, tr, th, td, thead, tbody {
+    font-size: inherit
+}
+
+.table > tbody > tr > td, .table > tbody > tr > th, .table > tfoot > tr > td, .table > tfoot > tr > th, .table > thead > tr > td, .table > thead > tr > th {
+    /*vertical-align: middle;*/
+    vertical-align: top;
+}
+
+.main-header {
+    /*background-image: url("../images/top-strip-1.png");*/
+    background-repeat: no-repeat;
+    background-size: 100%;
+    /*background-color: black;*/
+    background: linear-gradient(90deg, rgba(63, 94, 251, 1) 0%, rgba(252, 70, 107, 1) 100%);
+}
+
+/* remove some borders from the top menu*/
+.skin-black-light .main-header .navbar > .sidebar-toggle {
+    border-right: 0;
+}
+
+.skin-black-light .main-header > .logo {
+    border-right: 0;
+}
+
+.skin-black-light .main-header .navbar .navbar-custom-menu .navbar-nav > li > a,
+.skin-black-light .main-header .navbar .navbar-right > li > a {
+    border-right: 0;
+    border-left: 0;
+}
+
+/* Fix CTA position for all module base form */
+.cta-block {
+    position: fixed;
+    background-color: #ffffff;
+    bottom: 0;
+    padding: 10px 0 10px 0;
+    z-index: 999;
+    border-top: dotted gainsboro 1px;
+}
+
+.cta-block .btn {
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 16px;
+}
+
+button.submit {
+    border: 2px green solid;
+    background-color: white;
+    color: green;
+}
+
+.delete-cta {
+    margin-right: 260px;
+}
+
+/* padding of form element*/
+.form-group {
+    padding-left: 0;
+    margin-bottom: 10px;
+}
+
+/* reduced margin for module titles to align with breadcrumb*/
+.content-header h2 {
+    font-weight: bold;
+    color: #777;
+    text-transform: capitalize;
+    margin-top: 0;
+}
+
+.content-header a {
+    color: #fc466b;
+}
+
+div.dataTables_processing {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    height: 60px;
+    margin-left: -50%;
+    margin-top: -25px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+div.dataTables_info {
+    float: left;
+}
+
+/* datatable */
+table.dataTable {
+    margin-top: 5px !important;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+table.dataTable thead > tr > th {
+    font-weight: bold;
+    font-size: 10px;
+
+}
+
+table.dataTable td {
+    /*background-color: #f5f5f6;*/
+    border-color: #fff;
+    color: #777;
+}
+
+table.dataTable th {
+    text-transform: uppercase;
+}
+
+table.dataTable thead .sorting::after,
+table.dataTable thead .sorting_asc::after,
+table.dataTable thead .sorting_desc::after {
+    opacity: 1;
+    font-weight: normal;
+    font-size: 10px;
+    color: lightgrey;
+}
+
+/* make textarea same size of ckeditor */
+textarea {
+    height: 100px;
+}
+
+/* made label font weight bold*/
+label {
+    font-weight: bold;
+    font-size: 0.9em;
+    /*text-transform: uppercase;*/
+    color: #a0a0a0;
+    margin-bottom: 0;
+}
+
+/* style for permissions tree in group details form*/
+.permissions-tree ul, .permissions-tree ul li {
+    list-style: none;
+    float: left;
+    margin-left: 15px;
+    padding: 0;
+}
+
+.permissions-tree label {
+    margin-left: 5px;
+    top: -3px;
+    position: relative;
+}
+
+/* add padding at the bottom of the app-frame so that CTA does not overlap with page econtent*/
+.content {
+    padding-top: 0;
+    padding-bottom: 150px;
+    min-height: 600px;
+    background-color: #ffffff;
+!important;
+}
+
+.content-wrapper, .right-side, .wrapper {
+    background-color: #ffffff; /*make background white*/
+}
+
+/* class for removing padding from all direction */
+.no-padding-r {
+    padding-right: 0;
+}
+
+.no-padding-l {
+    padding-left: 0;
+}
+
+.no-padding-t {
+    padding-top: 0;
+}
+
+.no-padding-b {
+    padding-bottom: 0;
+}
+
+.no-margin-r {
+    margin-right: 0;
+}
+
+.no-margin-l {
+    margin-left: 0;
+}
+
+.no-margin-t {
+    margin-top: 0;
+}
+
+.no-margin-b {
+    margin-bottom: 0;
+}
+
+/* Make button smaller beside the tile. usually these are create (plus button) or list button*/
+h2 .btn-sm, h2 .btn-xs, h2 .btn-clone {
+    font-size: 12px;
+}
+
+.tooltip-inner {
+    text-align: left;
+}
+
+.shadow {
+    box-shadow: 0 0px 11px 0 rgb(0 0 0 / 20%), 0 0px 0px 0 rgb(0 0 0 / 20%);
+}
+
+/* Upload list */
+div.filecard .info-box-icon img {
+    float: left;
+    height: 100%;
+    background-color: white;
+    font-size: 10px;
+    overflow: hidden;
+}
+
+.info-box-icon .download-overlay {
+    position: absolute;
+    left: 50px;
+    top: 33px;
+    font-size: 24px;
+    color: #d0d0d6;
+    opacity: .5
+}
+
+.info-box-content .file-info {
+    overflow: hidden;
+    text-overflow: ellipsis
+}
+
+div.filecard .info-box-icon {
+    background-color: white;
+}
+
+div.filecard .info-box-text,
+div.filecard .progress-description,
+div.filecard .info-box-number {
+    font-size: inherit;
+}
+
+.uploads-container {
+    margin-bottom: 10px;
+}
+
+/* readonly spans in view partials inside forms/ */
+div.form-group span.readonly {
+    min-height: 34px;
+    height: auto;
+    background-color: #fbfbfb;
+    padding-left: 10px;
+}
+
+div.form-control {
+    height: auto;
+    min-height: 34px;
+    background-color: #fbfbfb;
+}
+
+.readonly {
+    background-color: #fbfbfb;
+}
+
+.navbar-nav > .user-menu > .dropdown-menu {
+    padding: 0;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* Make the background of the right side full white*/
+.skin-blue .wrapper {
+    background-color: #ffffff;
+}
+
+.navbar-nav > .user-menu > .dropdown-menu > .user-body {
+    border: 0;
+}
+
+.navbar-nav > .user-menu > .dropdown-menu > li.user-header > p {
+    color: inherit;
+}
+
+/* Select2 style customization */
+
+/* manage border*/
+.select2-drop, .select2-drop.select2-drop-above,
+.select2-container.select2-drop-above .select2-choice,
+.select2-container .select2-choice .select2-arrow,
+.select2-container-multi .select2-choices .select2-search-choice,
+.select2-container .select2-choice,
+.form-control,
+.info-box,
+.callout,
+.ajax-file-upload-statusbar,
+.ajax-upload-dragdrop,
+.mark, mark {
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+}
+
+.select2-selections {
+    cursor: pointer;
+    list-style: none;
+    padding: 5px 0 5px 10px;
+}
+
+div.select2-result-label:hover {
+    background-color: lightgrey;
+}
+
+input, textarea {
+    border-radius: 0;
+}
+
+.select2-container .select2-choice {
+    -moz-user-select: none;
+    background-clip: padding-box;
+    background-color: #ffffff;
+    display: block;
+    overflow: hidden;
+    position: relative;
+    text-decoration: none;
+    white-space: nowrap;
+    background-image: none;
+    border: 0;
+    height: 32px;
+    padding: 3px 0 5px 10px;
+}
+
+.select2-container {
+    padding: 0
+}
+
+.select2-offscreen, .select2-offscreen:focus {
+    border: 0 !important;
+    clip: rect(0, 0, 0, 0) !important;
+    height: 1px !important;
+    left: 0 !important;
+    margin: 0 !important;
+    outline: 0 !important;
+    overflow: hidden !important;
+    padding: 0 !important;
+    position: absolute !important;
+    top: 0 !important;
+    width: 1px !important
+}
+
+.select2-drop, .select2-drop.select2-drop-above {
+    border: 1px solid #cccccc
+}
+
+.select2-drop.select2-drop-above.select2-drop-active {
+    border: 1px solid #cccccc
+}
+
+.select2-search input {
+    margin: 5px 0;
+    font-family: inherit;
+}
+
+.select2-container.select2-drop-above .select2-choice {
+    border: 0;
+    background: 0 0
+}
+
+.select2-container .select2-choice .select2-arrow {
+    border: 0;
+    background-image: none;
+    background: transparent;
+}
+
+.select2-container, .select2-container-multi {
+    height: auto
+}
+
+.select2-container-multi .select2-choices .select2-search-choice {
+    padding: 4px 10px 4px 24px;
+    margin: 3px 5px 3px 5px;
+    line-height: 16px;
+    background-image: none;
+    background-color: #f5f5f5;
+}
+
+.select2-container-multi .select2-choices {
+    /*padding-top: 3px;*/
+    background-image: none;
+    border: 0;
+}
+
+#tab_advanced .select2-container-multi .select2-choices .select2-search-choice {
+    width: 100%;
+}
+
+.select2-search-choice-close {
+    width: 17px;
+    top: 20%;
+}
+
+.main-header {
+    z-index: 1000;
+}
+
+.skin-blue-light .treeview-menu > li > a {
+    color: #444444;
+    font-size: inherit;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.logo, .skin-blue-light .main-header .navbar, .navbar > a, .navbar a:hover {
+    background-color: transparent !important;
+    /*color: white !important;*/
+}
+
+/* remove border between left and right section*/
+.skin-blue-light .content-wrapper, .skin-blue-light .main-footer {
+    border-left: 0;
+}
+
+.skin-blue-light .sidebar-menu > li > a {
+    font-weight: normal;
+    color: #777;
+}
+
+/* manage border*/
+/*.select2-drop, .select2-drop.select2-drop-above,
+.select2-container.select2-drop-above .select2-choice,
+.select2-container .select2-choice .select2-arrow,
+.select2-container-multi .select2-choices .select2-search-choice,
+.select2-container .select2-choice,
+.form-control, * {
+    border-radius: 0 !important;
+}*/
+
+/* form validation error with no border*/
+.formError .formErrorContent {
+    border: 0;
+    border-radius: 0;
+}
+
+select, .form-control {
+    border-color: #f0f0f0;
+    color: #777333;
+    /*padding-left: 0;*/
+    /*border-top: 0;*/
+    /*border-left: 0;*/
+    /*border-right: 0;*/
+    /*font-weight: bold;*/
+}
+
+input:focus {
+    /*border-radius: 0;*/
+    /*border-bottom: 2px #001fbd solid;*/
+    -webkit-animation: animation 2s ease-in-out;
+    -moz-animation: animation 2s ease-in-out;
+}
+
+input:read-only, .form-control[disabled], .form-control[readonly], fieldset[disabled] .form-control {
+    background-color: #fbfbfb;
+    /*border: 1px solid #f4f4f4;*/
+    /*border: inherit;*/
+    /*padding-left: 10px;*/
+}
+
+.select2-container.select2-container-disabled .select2-choice {
+    background-color: #fbfbfb;
+    border: none;
+    /*border: inherit;*/
+    /*padding-left: 10px;*/
+}
+
+.formError .formErrorArrow div {
+    border-left: 0;
+    border-right: 0;
+}
+
+.formError .formErrorArrow .line3,
+.formError .formErrorArrow .line2,
+.formError .formErrorArrow .line1 {
+    border-left: 0;
+    border-right: 0;
+    background-color: red;
+}
+
+.dashboard-tile {
+    padding: 15px;
+}
+
+/* Make module CTA block semi-transparent*/
+
+/* Small font size in dashboard box*/
+.small-box h3 {
+    font-size: 16px;
+}
+
+/* Make accordion header smaller */
+.panel-title {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.panel-title a {
+    display: block;
+}
+
+.panel-title a:hover {
+    display: block;
+    text-decoration: none;
+}
+
+.panel-title .material-icons-outlined,
+.panel-title .material-symbols-outlined,
+.panel-title .fa,
+.panel-title i,
+.panel-title ion-icon {
+    margin-right: 15px;
+    font-size: 22px;
+    position: relative;
+    float: left;
+}
+
+.panel-title .fa,
+.panel-title i {
+    margin-right: 24px;
+}
+
+/* Reduce space from accordion panel bottom*/
+.panel-group {
+    margin-bottom: 10px;
+}
+
+/* Show full border for text-area*/
+textarea.form-control {
+    border: 1px #f0f0f0 solid;
+    padding: 5px;
+    height: 100px;
+}
+
+/* Remove border bottom from datatable rows_per_page selector */
+.dataTables_length {
+    float: left;
+}
+
+.dt-buttons {
+    float: right;
+}
+
+.div.dataTables_length select {
+    border-bottom: 0;
+}
+
+div.dataTables_length label {
+    float: right;
+}
+
+.dt-refresh-btn {
+    margin-right: 5px;
+}
+
+ion-icon {
+    visibility: hidden;
+    vertical-align: middle;
+    text-align: center;
+    margin-top: -2px;
+}
+
+.sidebar-menu > li > a > .fa,
+.sidebar-menu > li > a > .glyphicon,
+.sidebar-menu > li > a > .ion,
+.sidebar-menu > li > a > ion-icon,
+.sidebar-menu > li > a > .material-icons-outlined,
+.sidebar-menu > li > a > .material-symbols-outlined {
+    width: 15px;
+    margin-right: 16px;
+    font-size: inherit;
+    line-height: inherit;
+    float: left;
+}
+
+.sidebar-menu .treeview-menu > li > a > .fa,
+.sidebar-menu .treeview-menu > li > a > .glyphicon,
+.sidebar-menu .treeview-menu > li > a > .ion,
+.sidebar-menu .treeview-menu > li > a > ion-icon,
+.sidebar-menu .treeview-menu > li > a > .material-icons-outlined,
+.sidebar-menu .treeview-menu > li > a > .material-symbols-outlined {
+    width: 15px;
+    margin-right: 10px;
+    font-size: inherit;
+    line-height: inherit;
+    float: left;
+}
+
+.sidebar-menu > li > a > ion-icon,
+.sidebar-menu .treeview-menu > li > a > ion-icon {
+    font-size: 20px;
+}
+
+pre.sf-dump, pre.sf-dump .sf-dump-default {
+    z-index: 100;
+!important;
+}
+
+/* Resize dashboard blocks */
+.small-box .icon {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    z-index: 0;
+    font-size: 30px;
+    color: rgba(0, 0, 0, 0.15);
+}
+
+.modal-open .modal {
+    z-index: 9999;
+}
+
+.modal-title {
+    float: left;
+}
+
+.modal-content {
+    border-radius: 5px;
+}
+
+.pagination {
+    margin: 0;
+}
+
+.pagination > li > a, .pagination > li > span {
+    padding: 5px 8px;
+}
+
+.callout h4 {
+    font-weight: normal;
+    color: inherit;
+}
+
+.callout a {
+    color: #3c8dbc;
+    text-decoration: underline;
+}
+
+.callout {
+    /*border-radius: 3px;*/
+    margin: 0 0 20px 0;
+    padding: 15px 30px 15px 15px;
+    /*border-left: 5px solid #eee; */
+    border-left: 0;
+}
+
+.modal-header {
+    border-bottom: 0;
+}
+
+.modal-footer {
+    border-top: 0;
+}
+
+a i {
+    color: inherit;
+}
+
+.border-dashed {
+    border: 1px gainsboro dashed;
+}
+
+.border-dotted {
+    border: 2px gainsboro dotted;
+}
+
+.bordered {
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.errorDiv a {
+    color: #3c8dbc;
+}
+
+.align-with-input {
+    margin-top: 20px;
+}
+
+.select2-container .select2-choice .select2-arrow {
+    background-image: none;
+    background: transparent;
+}
+
+.ajax-file-upload-statusbar {
+    border: 0 solid lightgray;
+    width: 420px;
+    margin: 0;
+    padding: 0;
+}
+
+.ajax-upload-dragdrop {
+    border: 2px dotted #a5a5c7;
+    width: 420px;
+    color: #dadce3;
+    text-align: left;
+    vertical-align: middle;
+    padding: 10px 10px 10px 10px;
+}
+
+/* Text and background colours*/
+.text-smart-blue {
+    color: #3f5efb;
+}
+
+.text-smart-red {
+    color: #fc466b;
+}
+
+.text-dark-gray {
+    color: #777777;
+}
+
+.bg-smart-blue, .bg-smart-blue:hover {
+    background-color: #3f5efb;
+    color: white;
+}
+
+.bg-blueviolet, .bg-blueviolet:hover {
+    background-color: blueviolet;
+    color: white;
+}
+
+button.bg-white:hover {
+    background-color: #3f5efb;
+    border-color: #3f5efb;
+    color: white;
+}
+
+.bg-white {
+    background-color: white;
+}
+
+.bg-smart-red, .bg-smart-red:hover {
+    background-color: #fc466b;
+    color: white;
+}
+
+.left-bar-red {
+    border-left: 5px solid red;
+    padding-left: 10px;
+}
+
+.left-bar-smart-red {
+    border-left: #fc466b;
+    padding-left: 10px;
+}
+
+.login-page .btn.btn-success, .btn.btn-primary {
+    background-color: #3f5efb;
+}
+
+.mark, mark {
+    padding: 0;
+    background-color: yellow;
+}
+
+.transparent, .bg-transparent {
+    background-color: transparent;
+}
+
+.block {
+    display: block;
+}
+
+.dropdown-menu button {
+    /*background-color: transparent;*/
+}
+
+.column-sort {
+    font-size: 8px;
+}
+
+.sort-btn {
+    white-space: normal;
+}
+
+.partBuilderTable > tbody > tr > td, #partsBuilder > tbody > tr > th, #partsBuilder > tfoot > tr > td, #partsBuilder > tfoot > tr > th, #partsBuilder > thead > tr > td, #partsBuilder > thead > tr > th {
+    border: 0;
+}
+
+textarea.json {
+    font-family: Monospace, serif;
+}
+
+.truncate {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 130px;
+}
+
+.truncate:hover {
+    overflow: visible;
+}
+
+.pagination > .active > a, .pagination > .active > a:focus, .pagination > .active > a:hover, .pagination > .active > span, .pagination > .active > span:focus, .pagination > .active > span:hover {
+    background-color: #3f5efb;
+}
+
+.print-btn {
+    margin: 10px 0;
+}
+
+/**************************
+ * Font sizes
+ *************************/
+.f-8 {
+    font-size: 8px;
+}
+
+.f-9 {
+    font-size: 9px;
+}
+
+.f-10 {
+    font-size: 10px;
+}
+
+.f-11 {
+    font-size: 11px;
+}
+
+.f-11 {
+    font-size: 11px;
+}
+
+.f-12 {
+    font-size: 12px;
+}
+
+.f-13 {
+    font-size: 13px;
+}
+
+.f-14 {
+    font-size: 14px;
+}
+
+.f-16 {
+    font-size: 16px;
+}
+
+.f-18 {
+    font-size: 18px;
+}
+
+.f-20 {
+    font-size: 20px;
+}
+
+.f-24 {
+    font-size: 24px;
+}
+
+.f-24 {
+    font-size: 24px;
+}
+
+.f-36 {
+    font-size: 36px;
+}
+
+.f-48 {
+    font-size: 48px;
+}
+
+/**************************
+ * Module quick finder
+ *************************/
+.quick-modules-menu > .dropdown-menu {
+    width: 300px;
+}
+
+.quick-modules-menu > .dropdown-menu > .dropdown-item {
+    padding: 10px;
+}
+
+ul.quick-module-list {
+    list-style: none;
+    padding-left: 10px;
+}
+
+.skin-blue-light .main-header .navbar .dropdown-menu li a {
+    color: inherit;
+}
+
+ul.quick-module-list li {
+    padding: 5px 5px 5px 0;
+    font-size: inherit;
+}
+
+.module-base-form {
+    margin-top: 20px;
+}
+
+.report-filter-tabs {
+    box-shadow: none;
+}
+
+/** Datatable buttons */
+.dt-button {
+
+}
+
+.text-overflow-hide {
+    white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+}
+
+.info-box {
+    display: block;
+    min-height: 90px;
+    /* background: #fff; */
+    width: 100%;
+    /*box-shadow: 0 4px 13px rgb(0 0 0 / 10%);*/
+    box-shadow: none;
+    border-radius: 6px;
+    margin-bottom: 15px;
+}
+
+.info-box-icon {
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+    background: transparent;
+}
+
+label.required::after {
+    font-weight: bold;
+    color: red;
+    content: "* ";
+}
+
+.info-box-content {
+    padding-top: 10px;
+}
+
+/**** Is active: starts **************/
+.is-active-div {
+    border: 1px solid #f0f0f0;
+    border-radius: 3px;
+    padding: 5px 10px;
+    width: 134px;
+    float: left;
+}
+
+.bordered-checkbox {
+    border: 1px solid #f0f0f0;
+    border-radius: 3px;
+    padding: 5px 10px;
+    width: 134px;
+    float: left;
+}
+
+.label_is_active {
+    top: 12px;
+    float: left;
+    margin-left: 24px;
+}
+
+input.is_active {
+    float: left;
+    margin-top: 2px;
+}
+
+.bordered-checkbox input {
+    float: left;
+    margin-top: 2px;
+}
+
+.bordered-checkbox label {
+    top: 12px;
+    float: left;
+    margin-left: 24px;
+}
+
+/**** Is active : ends **************/
+
+/**
+* Boxed input
+**********************************************************/
+.boxed-input label {
+    color: white;
+    font-weight: bold;
+    background-color: #fc466b;
+    display: block;
+    padding: 0 5px;
+    border-radius: 3px 3px 0 0;
+}
+
+.boxed-input {
+    /*float: left;*/
+}
+
+.boxed-input .form-control {
+    border: 2px #fc466b solid;
+    border-radius: 0 0 3px 3px;
+}
+
+.blue-boxed label {
+    color: white;
+    font-weight: bold;
+    background-color: #3f5efb;
+    display: block;
+    padding: 5px 5px 5px 15px;
+    border-radius: 5px 5px 0 0;
+}
+
+.blue-boxed .selection-data {
+    border: 2px #3f5efb solid;
+    border-radius: 0 0 5px 5px;
+    padding: 10px;
+}
+
+/**
+* Bordered input field for ajax-preview-search select
+******************************************************/
+.gray-boxed label {
+    color: white;
+    font-weight: bold;
+    background-color: grey;
+    display: block;
+    padding: 5px;
+    border-radius: 5px 5px 0 0;
+}
+
+.gray-boxed .selection-data {
+    border: 2px grey solid;
+    border-radius: 0 0 5px 5px;
+    padding: 10px;
+}
+
+.btn-select-result {
+    background-color: white;
+    border: 2px green solid;
+    color: green;
+}
+
+.btn-select-result:hover {
+    color: white;
+    border: 2px green solid;
+    background-color: green;
+}
+
+/*
+|--------------------------------------------------------------------------
+| Buttons of different colours
+|--------------------------------------------------------------------------
+|
+|
+*/
+.btn-bordered-green {
+    border: 2px green solid;
+    background-color: white;
+    color: green;
+}
+
+.btn-bordered-green:hover {
+    background-color: green;
+    color: white;
+}
+
+.btn-bordered-blueviolet {
+    border: 2px blueviolet solid;
+    background-color: white;
+    color: blueviolet;
+}
+
+.btn-bordered-blueviolet:hover {
+    background-color: blueviolet;
+    color: white;
+}
+
+.btn-bordered-blue {
+    border: 2px blue solid;
+    background-color: white;
+    color: blue;
+}
+
+.btn-bordered-blue:hover {
+    background-color: blue;
+    color: white;
+}
+
+/**
+* Text transforms
+******************************************************/
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+/**
+* back-link
+******************************************************/
+.back-link {
+    border: 1px solid lightgrey;
+}

@@ -1,0 +1,1 @@
+@extends('projects.default-project.layouts.default.template')
