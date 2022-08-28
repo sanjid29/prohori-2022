@@ -2,7 +2,7 @@
 
 namespace App;
 
-class Upload extends \App\Projects\DefaultProject\Modules\Uploads\Upload
+class Upload extends \App\Projects\Prohori\Modules\Uploads\Upload
 {
    /*--------------------------------------
    | Note : Empty class.

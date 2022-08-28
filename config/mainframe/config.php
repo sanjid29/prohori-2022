@@ -14,9 +14,9 @@ return [
     |
     */
 
-    'name' => env('APP_NAME', 'DefaultProject'),
-    'project' => env('PROJECT', 'DefaultProject'),
-    'project_key' => env('PROJECT_KEY'),  // default-project
+    'name' => env('APP_NAME', 'Prohori'),
+    'project' => env('PROJECT', 'Prohori'),
+    'project_key' => env('PROJECT_KEY'),  // prohori
 
     'project_namespace' => env('PROJECT_NAMESPACE'), // "App\\Projects\\${PROJECT}"
     'project_directory' => env('PROJECT_DIRECTORY'), // "app/Projects/${PROJECT}"
@@ -88,10 +88,10 @@ return [
 
     'load' => [
         'css' => [
-            'projects/default-project/css/custom.css',
+            'projects/prohori/css/custom.css',
         ],
         'js' => [
-            'projects/default-project/js/custom.js',
+            'projects/prohori/js/custom.js',
         ],
     ],
 ];

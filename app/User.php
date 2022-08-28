@@ -2,7 +2,7 @@
 
 namespace App;
 
-class User extends \App\Projects\DefaultProject\Modules\Users\User
+class User extends \App\Projects\Prohori\Modules\Users\User
 {
    /*--------------------------------------
    | Note : Empty class.

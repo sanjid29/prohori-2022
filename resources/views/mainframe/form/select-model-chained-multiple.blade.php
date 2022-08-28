@@ -25,8 +25,8 @@ $emptyValue = $emptyValue ?? '';
     if (!$loop->first && !isset($level['query']) && isset($element)) {
         $previous = $loop->index - 1;
         $previousLevel = $levels[$previous];
-        /** @var \App\Projects\DefaultProject\Features\Modular\BaseModule\BaseModule $class */
-        /** @var \App\Projects\DefaultProject\Features\Modular\BaseModule\BaseModule $previousLevelClass */
+        /** @var \App\Projects\Prohori\Features\Modular\BaseModule\BaseModule $class */
+        /** @var \App\Projects\Prohori\Features\Modular\BaseModule\BaseModule $previousLevelClass */
         $previousLevelClass = $previousLevel['model'];
         $targetField = Str::singular((new($previousLevelClass))->getTable())."_id"; // division_id
         $level['query'] = $level['query'] ?? $class::where($targetField, $element->{$previousLevel['name']});

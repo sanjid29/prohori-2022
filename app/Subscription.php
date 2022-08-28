@@ -2,7 +2,7 @@
 
 namespace App;
 
-class Subscription extends \App\Projects\DefaultProject\Modules\Subscriptions\Subscription
+class Subscription extends \App\Mainframe\Modules\Subscriptions\Subscription
 {
    /*--------------------------------------
    | Note : Empty class.

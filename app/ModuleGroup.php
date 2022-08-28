@@ -2,7 +2,7 @@
 
 namespace App;
 
-class ModuleGroup extends \App\Projects\DefaultProject\Modules\ModuleGroups\ModuleGroup
+class ModuleGroup extends \App\Mainframe\Modules\ModuleGroups\ModuleGroup
 {
    /*--------------------------------------
    | Note : Empty class.

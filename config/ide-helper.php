@@ -129,7 +129,7 @@ return [
 
     'model_locations' => [
         'app', // All model
-        // 'app/Projects/DefaultProject', // For project uncomment this
+        // 'app/Projects/Prohori', // For project uncomment this
     ],
 
     /*

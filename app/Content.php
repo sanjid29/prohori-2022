@@ -2,7 +2,7 @@
 
 namespace App;
 
-class Content extends \App\Projects\DefaultProject\Modules\Contents\Content
+class Content extends \App\Mainframe\Modules\Contents\Content
 {
    /*--------------------------------------
    | Note : Empty class.

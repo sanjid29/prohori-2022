@@ -17660,7 +17660,7 @@
      
 }
 
-    namespace App\Projects\DefaultProject\Helpers { 
+    namespace App\Projects\Prohori\Helpers { 
             /**
      * 
      *
@@ -22449,7 +22449,7 @@ namespace  {
             class Debugbar extends \Barryvdh\Debugbar\Facades\Debugbar {}
             class Form extends \Collective\Html\FormFacade {}
             class Html extends \Collective\Html\HtmlFacade {}
-            class Cached extends \App\Projects\DefaultProject\Helpers\Cached {}
+            class Cached extends \App\Projects\Prohori\Helpers\Cached {}
             class PDF extends \Barryvdh\DomPDF\Facade\Pdf {}
             class Socialite extends \Laravel\Socialite\Facades\Socialite {}
             class QrCode extends \SimpleSoftwareIO\QrCode\Facades\QrCode {}

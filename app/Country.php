@@ -2,7 +2,7 @@
 
 namespace App;
 
-class Country extends \App\Projects\DefaultProject\Modules\Countries\Country
+class Country extends \App\Projects\Prohori\Modules\Countries\Country
 {
    /*--------------------------------------
    | Note : Empty class.

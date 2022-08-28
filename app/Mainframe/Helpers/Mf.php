@@ -102,7 +102,7 @@ class Mf
     }
 
     /**
-     * Get project directory app/Projects/DefaultProject
+     * Get project directory app/Projects/Prohori
      *
      * @return array|\Illuminate\Config\Repository|\Illuminate\Contracts\Foundation\Application|mixed|string|string[]
      */

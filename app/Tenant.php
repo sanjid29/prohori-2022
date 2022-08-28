@@ -2,7 +2,7 @@
 
 namespace App;
 
-class Tenant extends \App\Projects\DefaultProject\Modules\Tenants\Tenant
+class Tenant extends \App\Mainframe\Modules\Tenants\Tenant
 {
    /*--------------------------------------
    | Note : Empty class.

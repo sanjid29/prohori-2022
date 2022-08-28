@@ -1,0 +1,1 @@
+@extends('projects.prohori.layouts.default.template')

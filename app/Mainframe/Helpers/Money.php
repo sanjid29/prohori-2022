@@ -96,7 +96,7 @@ class Money
     //     }
     //
     //     if ($from == $to) {
-    //         return \App\Projects\DefaultProject\Helpers\Money::format($amount);
+    //         return \App\Projects\Prohori\Helpers\Money::format($amount);
     //         //return number_format($amount);
     //     }
     //     /**

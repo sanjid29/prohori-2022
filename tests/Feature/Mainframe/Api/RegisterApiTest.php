@@ -2,7 +2,7 @@
 
 namespace Tests\Feature\Mainframe\Api;
 
-use App\Projects\DefaultProject\Notifications\Auth\VerifyEmail;
+use App\Projects\Prohori\Notifications\Auth\VerifyEmail;
 use App\User;
 use Tests\ApiTestCase;
 

@@ -183,7 +183,7 @@ return [
         /*---------------------------------
         | Section: Project Service providers
         |---------------------------------*/
-        App\Projects\DefaultProject\Providers\AppServiceProvider::class,
+        App\Projects\Prohori\Providers\AppServiceProvider::class,
 
     ],
 
@@ -254,7 +254,7 @@ return [
         | Section: Alias project module classes.
         |-------------------------------------------------------------------------*/
         // 'SuperHeroes' => App\Mainframe\Modules\SuperHeroes\SuperHero::class,
-        'Cached' => App\Projects\DefaultProject\Helpers\Cached::class,
+        'Cached' => App\Projects\Prohori\Helpers\Cached::class,
     ],
 
 ];

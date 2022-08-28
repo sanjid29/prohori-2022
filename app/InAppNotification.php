@@ -2,7 +2,7 @@
 
 namespace App;
 
-class InAppNotification extends \App\Projects\DefaultProject\Modules\InAppNotifications\InAppNotification
+class InAppNotification extends \App\Projects\Prohori\Modules\InAppNotifications\InAppNotification
 {
    /*--------------------------------------
    | Note : Empty class.

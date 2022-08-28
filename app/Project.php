@@ -2,7 +2,7 @@
 
 namespace App;
 
-class Project extends \App\Projects\DefaultProject\Modules\Projects\Project
+class Project extends \App\Mainframe\Modules\Projects\Project
 {
    /*--------------------------------------
    | Note : Empty class.
